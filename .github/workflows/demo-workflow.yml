@@ -1,0 +1,11 @@
+name: Demo Workflow
+
+on: [workflow_dispatch]
+
+jobs:
+  demo-job:
+    name: Demo Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hello Afrocentric
+        run: echo 'Hello Afrocentric'
