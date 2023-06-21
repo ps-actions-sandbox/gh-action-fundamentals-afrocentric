@@ -11,3 +11,8 @@ jobs:
         
       - name: Run Composite Action
         uses: ./.github/actions/composite-action
+        
+      - name: Write Summary
+        run: |
+          echo '# Summary' >> $GITHUB_STEP_SUMMARY
+          echo 'This is the summary :ship:' >> $GITHUB_STEP_SUMMARY
