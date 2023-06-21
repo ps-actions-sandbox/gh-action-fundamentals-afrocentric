@@ -9,3 +9,10 @@ jobs:
     steps:
       - name: Echo Hello Afrocentric
         run: echo 'Hello Afrocentric'
+        
+  demo-job-2:
+    name: Demo Job 2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hello again Afrocentric
+        run: echo 'Hello again Afrocentric'
