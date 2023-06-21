@@ -1,0 +1,6 @@
+name: 'Composite Action'
+description: 'Demo'
+runs:
+  using: 'composite'
+  steps:
+    - run: echo 'Hello'
